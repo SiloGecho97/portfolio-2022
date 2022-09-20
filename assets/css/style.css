@@ -3,12 +3,6 @@
 \*-----------------------------------*/
 
 
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
 
 
 /*-----------------------------------*\
@@ -56,11 +50,14 @@
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
+  --jet: #41576c;
+  --onyx: #41576c;
+  --eerie-black-1: #41576c;
+  --eerie-black-2: #2c3e50;
+  /* --smoky-black: #FBF8F3; */
+  --smoky-black: #F2F4F6;
+  
+
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
@@ -74,7 +71,7 @@
    */
 
   /* font-family */
-  --ff-poppins: 'Poppins', sans-serif;
+  --ff-poppins: 'Arima', cursive, sans-serif;
 
   /* font-size */
   --fs-1: 24px;
@@ -155,7 +152,8 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { background: rgb(189,195,199);
+  background: linear-gradient(90deg, rgba(189,195,199,1) 0%, rgba(44,62,80,1) 100%, rgba(0,212,255,1) 100%); }
 
 
 
