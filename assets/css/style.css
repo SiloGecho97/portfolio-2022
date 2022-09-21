@@ -52,7 +52,7 @@
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(202, 100%, 72%);
-  --vegas-gold: hsl(205, 54%, 58%);
+  --vegas-blue: hsl(206, 74%, 82%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(213, 43%, 51%);
@@ -779,15 +779,26 @@ main {
 .timeline-item:not(:last-child) { margin-bottom: 20px; }
 
 .timeline-item-title {
-  font-size: var(--fs-6);
+  font-size: var(--fs-5);
   line-height: 1.3;
   margin-bottom: 7px;
 }
 
 .timeline-list span {
-  color: var(--vegas-gold);
-  font-weight: var(--fw-400);
+  color: var(--vegas-blue);
+  font-weight: var(--fw-300);
   line-height: 1.6;
+  font-size: var(--fs-8);
+  font-style: italic;
+}
+
+.timeline-company {
+  font-size: var(--fs-6);
+  color: var(--vegas-blue);
+  font-weight: var(--fw-400);
+  line-height: 1.7;
+  font-style: normal;
+
 }
 
 .timeline-item:not(:last-child)::before {
@@ -817,6 +828,15 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+
+.timeline-text ul li {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-left: 1rem;
+  list-style-type: disc;
+}
+
 
 
 /**
