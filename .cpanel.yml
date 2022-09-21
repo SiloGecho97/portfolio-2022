@@ -2,4 +2,6 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/silasgetachewdev/public_html/
- - /bin/cp index.html $DEPLOYPATH
+ - /bin/cp index.html $DEPLOYPATH 
+ - /bin/cp index.txt $DEPLOYPATH
+ - /bin/cp -R assets $DEPLOYPATH
