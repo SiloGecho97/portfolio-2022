@@ -462,12 +462,14 @@ main {
   justify-content: center;
   align-items: center;
   padding: 0 10px;
+  cursor: pointer;
 }
 
 .navbar-link {
   color: var(--light-gray);
   font-size: var(--fs-8);
   padding: 20px 7px;
+  cursor: pointer;
   transition: color var(--transition-1);
 }
 
