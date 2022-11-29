@@ -224,7 +224,7 @@ article {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(207, 221, 232, 0.3);
   border-radius: 20px;
   padding: 15px;
   box-shadow: var(--shadow-1);
@@ -515,9 +515,9 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #1a2531;
+  background: #778796;
   backdrop-filter: blur(10px);
-  border: 1px solid var(--jet);
+  border: 1px solid var(--light-gray-70);
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
@@ -541,9 +541,9 @@ main {
 }
 
 .navbar-link:hover,
-.navbar-link:focus { color: var(--light-gray-70); }
+.navbar-link:focus { color: var(--light-gray); }
 
-.navbar-link.active { color: var(--orange-yellow-crayola); }
+.navbar-link.active { color: var(--onyx); }
 
 
 
